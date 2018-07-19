@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +6,40 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">
+            zoltan almodo : foosball match making (react app)
+          </h1>
+          <h1 className="App-title">
+            make teams!
+          </h1>
+
         </header>
+        <h1>
+          The logic:
+        </h1>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          001 - create list of teams with present setup. X
         </p>
+        <p className="App-intro">
+          002 - create list of players for random allocation into empty
+          teams. X
+        </p>
+        <p className="App-intro">
+          003 - complete / fill in empty teams with random players.
+        </p>
+        <p className="App-intro">
+          004 - match teams randomly
+        </p>
+        <h1>
+          Test !
+        </h1>
+        <h1>
+          Extras:
+        </h1>
+        <p className="App-intro">
+          - UI visually appealing
+        </p>
+
       </div>
     );
   }
