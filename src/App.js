@@ -9,8 +9,9 @@ class App extends Component {
           <h1 className="App-title">
             zoltan almodo : foosball match making (react app)
           </h1>
+          
           <h1 className="App-title">
-            make teams!
+            <a href="/">make teams! </a>
           </h1>
 
         </header>

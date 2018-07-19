@@ -14,7 +14,9 @@
   color: white;
 }
 
-
+a {
+  color: red;
+}
 
 .App-title {
   font-size: 1.5em;
